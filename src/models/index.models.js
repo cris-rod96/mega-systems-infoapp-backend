@@ -9,6 +9,7 @@ import ProductModel from "./product/product.model.js";
 import ReportModel from "./report/report.model.js";
 import SaleDetailModel from "./sale-detail/saleDetail.model.js";
 import SaleModel from "./sale/sale.model.js";
+import ServiceModel from "./service/service.model.js";
 import UserModel from "./user/user.model.js";
 
 export const models = [
@@ -23,5 +24,6 @@ export const models = [
   ReportModel,
   SaleDetailModel,
   SaleModel,
+  ServiceModel,
   UserModel,
 ];
