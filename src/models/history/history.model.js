@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize";
-import { actions } from "../../data/data";
+import { actions } from "../../data/data.js";
 
 const HistoryModel = (sq) => {
   sq.define(
