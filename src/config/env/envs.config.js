@@ -1,5 +1,5 @@
 import "dotenv/config";
 
-const { PORT = 3000 } = process.env;
+const { PORT = 3000, DEV_DB } = process.env;
 
-export default { PORT };
+export default { PORT, DEV_DB };
